@@ -6,7 +6,7 @@ This section of my portfolio documents my journey in mastering Relational SQL. A
 
 ## Hands-on Projects
 
-| SN | Python Fundamentals Projects |
+| SN | SQL Projects |
 |:---:|:---|
 | 1 | **[E-Commerce Sales Analysis with SQL](https://github.com/DhawaDG/DhawaDG-E-Commerce-Sales-Analysis-with-SQLS)** |
 
