@@ -39,3 +39,5 @@ Key resources used during my learning journey:
 
 - *SQL for Data Scientists* by Renée M. P. Teate
 
+---
+## ⬅️⬅️ [Back to Main Profile](https://github.com/DhawaDG)
