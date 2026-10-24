@@ -32,9 +32,8 @@ A collection of my detailed handwritten notes and summaries on these topics is a
 
 
 ### 1. Core Database Fundamentals & SQL Commands
-**Topics covered:**
 | | |
-| Topics| Page Number|
+| :--- | :--- |
 | - Core Database Fundamentals | `page 1` |
 | - SQL Commands (DDL, DML, DCL, TCL) | `page 1` |
 | - Database Structures (Tables, Rows, Columns, RDBMS) | `page 1` |
