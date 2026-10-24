@@ -83,6 +83,52 @@ A collection of my detailed handwritten notes and summaries on these topics is a
 - [📄 View PDF on GitHub](https://github.com/DhawaDG/Relational-SQL/blob/main/subqueries.pdf)
 - [⬇️ Download PDF](https://github.com/DhawaDG/Relational-SQL/raw/refs/heads/main/subqueries.pdf)
 
+### 3. SQL Data Retrieval & Manipulation
+
+Topics covered:
+- Introduction to SQL Data Retrieval and Aggregation
+- Aggregate Functions: `COUNT()`, `MAX()`, `MIN()`, `SUM()`, and `AVG()`
+- Using Aggregate Functions in `SELECT` Queries
+- Counting Total Employees
+- Counting Distinct Departments with `COUNT(DISTINCT ...)`
+- Finding Maximum and Minimum Salaries
+- Calculating Total Salary Expenditure
+- Calculating Average Salary
+- Understanding Why `MAX()` and `MIN()` Can Return the Same Value
+- Introduction to the `GROUP BY` Clause
+- Grouping Records by Multiple Columns
+- Using `GROUP BY` with Aggregate Functions
+- Using `ORDER BY` with Grouped Results
+- Using `DISTINCT` to Retrieve Unique Combinations
+- Calculating Total Spending per Customer and Purchase Date
+- Counting Purchases per Customer and Date
+- Calculating Total Quantity Purchased per Customer and Date
+- Counting Distinct Products Purchased
+- Combining Multiple Aggregate Functions in One Query
+- Calculating Spending Using Quantity and Cost per Unit
+- Grouping Customer Spending by Purchase Date
+- Understanding Buyer, Purchase, and Supplier Tables
+- Introduction to SQL `JOIN`
+- Using `LEFT JOIN` to Combine Tables
+- Joining Buyers with Purchase Records
+- Joining Purchase Records with Supplier Details
+- Using Table Aliases in SQL Queries
+- Referencing Columns from Multiple Joined Tables
+- Understanding How Joins Create a Combined Dataset
+- Generating Customer and Vendor Spending Reports
+- Calculating Total Spending by Customer and Vendor
+- Understanding the Purpose of the `HAVING` Clause
+- Difference Between `WHERE` and `HAVING`
+- Filtering Grouped Results Using Aggregate Conditions
+- Using `COUNT()` and `SUM()` with `HAVING`
+- Grouping Sales Data by Region
+- Calculating Total Sales and Total Revenue by Region
+- Filtering Regions by a Minimum Revenue Threshold
+- Sorting Grouped Results by Total Revenue
+
+- [📄 View PDF on GitHub](https://github.com/DhawaDG/Relational-SQL/blob/main/dataretrievalandmanipulations.pdf)
+- [⬇️ Download PDF](https://github.com/DhawaDG/Relational-SQL/raw/refs/heads/main/dataretrievalandmanipulations.pdf)
+
 ---
 
 ## Book References
