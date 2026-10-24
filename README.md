@@ -34,15 +34,15 @@ A collection of my detailed handwritten notes and summaries on these topics is a
 ### 1. Core Database Fundamentals & SQL Commands
 **Topics covered:**
 
-- Core Database Fundamentals `page 1`
-- SQL Commands (DDL, DML, DCL, TCL)
-- Database Structures (Tables, Rows, Columns, RDBMS)
-- Primary Keys and Foreign Keys
-- Connecting to a Database
-- Executing SQL Queries
-- Creating Tables using CREATE TABLE
-- SQL Data Types (Numeric, String, Date, Boolean, and Binary Types)
-- Creating and Dropping Databases and Tables
+- Core Database Fundamentals                                                   `page 1`
+- SQL Commands (DDL, DML, DCL, TCL)                                            `page 1`
+- Database Structures (Tables, Rows, Columns, RDBMS)                           `page 1`                         
+- Primary Keys and Foreign Keys                                                `page 1`
+- Connecting to a Database                                                     `page 1`
+- Executing SQL Queries                                                        `page 1`
+- Creating Tables using CREATE TABLE                                           `page 1`
+- SQL Data Types (Numeric, String, Date, Boolean, and Binary Types)            `page 1`
+- Creating and Dropping Databases and Tables                                   `page 1`
 - [📄 View PDF on GitHub](https://github.com/DhawaDG/Relational-SQL/blob/main/chapter1SQL-1-21%20(1).pdf)
 - [⬇️ Download PDF](https://github.com/DhawaDG/Relational-SQL/raw/refs/heads/main/chapter1SQL-1-21%20(1).pdf)
 
