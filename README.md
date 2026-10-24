@@ -85,7 +85,8 @@ A collection of my detailed handwritten notes and summaries on these topics is a
 
 ### 3. SQL Data Retrieval & Manipulation
 
-Topics covered:
+**Topics covered:**
+
 - Introduction to SQL Data Retrieval and Aggregation
 - Aggregate Functions: `COUNT()`, `MAX()`, `MIN()`, `SUM()`, and `AVG()`
 - Using Aggregate Functions in `SELECT` Queries
