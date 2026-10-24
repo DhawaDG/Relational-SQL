@@ -29,7 +29,7 @@ This section of my portfolio documents my journey in mastering Relational SQL. A
 ## Handwritten Notes PDF
 
 A collection of my detailed handwritten notes and summaries on these topics is available in PDF format.  
-[View Relational SQL Notes](#)
+
 
 ### 1. Core Database Fundamentals & SQL Commands
 **Topics covered:**
