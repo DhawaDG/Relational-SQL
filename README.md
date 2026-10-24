@@ -78,7 +78,7 @@ A collection of my detailed handwritten notes and summaries on these topics is a
 | Finding Employees Earning More Than Their Departmental Average Salary | `page 15-20 (correlated subquery with e1/e2: query on page 15, example calculation on page 16, key points on page 17, analogy and code on page 18, explanations on page 19-20)` |
 | Finding the Highest-Paid Employees in Each Department | `page 12-13 (query on 12, inner/outer query explanation and IN clause on 13)` |
 | Finding Departments Without Employees | `	page 14 (NOT IN version), 21-24 (NOT EXISTS version)` |
-| Finding Products with Total Sales Above Average | `page `25-30 (query 25, results and average calculation 26, JOIN and final output 27, why it works and alias n 28, why two aliases 29, summary 30) |
+| Finding Products with Total Sales Above Average | `page 25-30 (query 25, results and average calculation 26, JOIN and final output 27, why it works and alias n 28, why two aliases 29, summary 30)` |
 | Finding Stores Selling More Than the Average Quantity | `page 35-39 (HAVING with a subquery: query 35, clause explanation 36, how it works and example data 37, step-by-step calculation 38, key points 39)` |
 - [📄 View PDF on GitHub](https://github.com/DhawaDG/Relational-SQL/blob/main/subqueries.pdf)
 - [⬇️ Download PDF](https://github.com/DhawaDG/Relational-SQL/raw/refs/heads/main/subqueries.pdf)
