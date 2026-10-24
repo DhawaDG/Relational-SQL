@@ -86,45 +86,39 @@ A collection of my detailed handwritten notes and summaries on these topics is a
 
 **Topics covered:**
 
-- Introduction to SQL Data Retrieval and Aggregation
-- Aggregate Functions: `COUNT()`, `MAX()`, `MIN()`, `SUM()`, and `AVG()`
-- Using Aggregate Functions in `SELECT` Queries
-- Counting Total Employees
-- Counting Distinct Departments with `COUNT(DISTINCT ...)`
-- Finding Maximum and Minimum Salaries
-- Calculating Total Salary Expenditure
-- Calculating Average Salary
-- Understanding Why `MAX()` and `MIN()` Can Return the Same Value
-- Introduction to the `GROUP BY` Clause
-- Grouping Records by Multiple Columns
-- Using `GROUP BY` with Aggregate Functions
-- Using `ORDER BY` with Grouped Results
-- Using `DISTINCT` to Retrieve Unique Combinations
-- Calculating Total Spending per Customer and Purchase Date
-- Counting Purchases per Customer and Date
-- Calculating Total Quantity Purchased per Customer and Date
-- Counting Distinct Products Purchased
-- Combining Multiple Aggregate Functions in One Query
-- Calculating Spending Using Quantity and Cost per Unit
-- Grouping Customer Spending by Purchase Date
-- Understanding Buyer, Purchase, and Supplier Tables
-- Introduction to SQL `JOIN`
-- Using `LEFT JOIN` to Combine Tables
-- Joining Buyers with Purchase Records
-- Joining Purchase Records with Supplier Details
-- Using Table Aliases in SQL Queries
-- Referencing Columns from Multiple Joined Tables
-- Understanding How Joins Create a Combined Dataset
-- Generating Customer and Vendor Spending Reports
-- Calculating Total Spending by Customer and Vendor
-- Understanding the Purpose of the `HAVING` Clause
-- Difference Between `WHERE` and `HAVING`
-- Filtering Grouped Results Using Aggregate Conditions
-- Using `COUNT()` and `SUM()` with `HAVING`
-- Grouping Sales Data by Region
-- Calculating Total Sales and Total Revenue by Region
-- Filtering Regions by a Minimum Revenue Threshold
-- Sorting Grouped Results by Total Revenue
+| Topics Covered | Page |
+| :--- | :--- |
+| Aggregate functions (COUNT, MAX, MIN, SUM, AVG) and SELECT syntax | `page 1` |
+| COUNT aggregate: total employees, COUNT() note | `page 1` |
+| COUNT(DISTINCT dept_name) | `page 2` |
+| MAX aggregate (highest salary) | `page 2` |
+| MIN aggregate (lowest salary) | `page 2` |
+| Why MAX and MIN return the same result | `page 2` |
+| SUM aggregate (total expense) | `page 3` |
+| AVG aggregate (average salary) | `page 3` |
+| Purpose of GROUP BY | `page 4` |
+| Total spending per customer per market date, without GROUP BY (duplicates) | `page 4` |
+| Grouping by market_date and customer_id with SUM(price) | `page 4–5` |
+| Explanation of GROUP BY, SUM, ORDER BY | `page 5` |
+| Alternative using DISTINCT (unique combinations) | `page 5` |
+| Group summary: count of items purchased (COUNT()) | `page 6` |
+| Group summary: sum of quantities purchased (SUM(quantity)) | `page 6` |
+| Group summary: count of distinct products (COUNT(DISTINCT product)) | `page 7` |
+| Combining multiple summaries in a single query | `page 7` |
+| Buyer, supplier and purchase tables, primary and foreign keys | `page 8` |
+| Total spending per customer on each day (SUM(quantity * cost_per_unit)) | `page 9` |
+| Total spending per customer at each vendor | `page 10` |
+| Total spending by each customer | `page 11` |
+| Detailed report: customer and vendor details with LEFT JOIN | `page 12` |
+| How JOINs create a combined dataset | `page 12–13` |
+| Step-by-step execution of the join query | `page 13` |
+| Why you can use columns from other tables in SELECT | `page 13–14` |
+| Example walkthrough (buyer, purchase and supplier tables) | `page 14` |
+| What happens when the query is executed, and the combined dataset | `page 15` |
+| Final output of the customer and vendor report | `page 16` |
+| HAVING: purpose, difference from WHERE, typical use cases | `page 17` |
+| Regional sales_data table | `page 17` |
+| HAVING SQL code (total_revenue >= 15000), ORDER BY and output | `page 18` |
 
 - [📄 View PDF on GitHub](https://github.com/DhawaDG/Relational-SQL/blob/main/dataretrievalandmanipulations.pdf)
 - [⬇️ Download PDF](https://github.com/DhawaDG/Relational-SQL/raw/refs/heads/main/dataretrievalandmanipulations.pdf)
