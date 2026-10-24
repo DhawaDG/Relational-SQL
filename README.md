@@ -13,7 +13,7 @@ This section of my portfolio documents my journey in mastering Relational SQL. A
 
 ---
 
-## Topics Covered
+## Concepts Covered
 
 - **SELECT, WHERE, ORDER BY:** (10h)
 - **JOINs:** INNER, LEFT, RIGHT (12h)
@@ -32,7 +32,7 @@ A collection of my detailed handwritten notes and summaries on these topics is a
 
 
 ### 1. Core Database Fundamentals & SQL Commands
-| | |
+| Topics Covered | Page |
 | :--- | :--- |
 | - Core Database Fundamentals | `page 1` |
 | - SQL Commands (DDL, DML, DCL, TCL) | `page 1` |
