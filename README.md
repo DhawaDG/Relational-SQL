@@ -32,7 +32,7 @@ A collection of my detailed handwritten notes and summaries on these topics is a
 [View Relational SQL Notes](#)
 
 ### 1. Core Database Fundamentals & SQL Commands
-Topics covered:
+**Topics covered:**
 
 - Core Database Fundamentals
 - SQL Commands (DDL, DML, DCL, TCL)
@@ -44,7 +44,44 @@ Topics covered:
 - SQL Data Types (Numeric, String, Date, Boolean, and Binary Types)
 - Creating and Dropping Databases and Tables
 - [📄 View PDF on GitHub](https://github.com/DhawaDG/Relational-SQL/blob/main/chapter1SQL-1-21%20(1).pdf)
-- [⬇️ Download PDF](https://github.com/DhawaDG/Python_fundaments/raw/refs/heads/main/chapter1SQL-1-21%20(1).pdf)
+- [⬇️ Download PDF](https://github.com/DhawaDG/Relational-SQL/raw/refs/heads/main/chapter1SQL-1-21%20(1).pdf)
+
+
+
+
+### 2. SQL Subqueries & Different Types of Subqueries
+
+**Topics covered:**
+
+- Introduction to SQL Subqueries
+- Advantages of Subqueries
+- Inner Queries and Outer Queries
+- Scalar Subqueries
+- Multiple-Row Subqueries
+- Single-Column, Multiple-Row Subqueries
+- Multiple-Column, Multiple-Row Subqueries
+- Correlated Subqueries
+- Using Aggregate Functions in Subqueries (`AVG()`, `MAX()`, `SUM()`)
+- Using `IN` with Multiple-Column Subqueries
+- Using `NOT IN` with Subqueries
+- Using `NOT EXISTS` with Correlated Subqueries
+- Subqueries as Virtual Tables (Derived Tables)
+- Table Aliases in Subqueries
+- Column References and Dot Notation
+- Using Subqueries with `JOIN`
+- Using Subqueries in the `WHERE` Clause
+- Using Subqueries in the `HAVING` Clause
+- Using Subqueries in the `SELECT` Clause
+- Using `GROUP BY` and `HAVING` with Subqueries
+- Using `CASE` Statements with Subqueries
+- Finding Employees Earning More Than the Average Salary
+- Finding Employees Earning More Than Their Departmental Average Salary
+- Finding the Highest-Paid Employees in Each Department
+- Finding Departments Without Employees
+- Finding Products with Total Sales Above Average
+- Finding Stores Selling More Than the Average Quantity
+- [📄 View PDF on GitHub](https://github.com/DhawaDG/Relational-SQL/blob/main/subqueries.pdf)
+- [⬇️ Download PDF](https://github.com/DhawaDG/Relational-SQL/raw/refs/heads/main/subqueries.pdf)
 
 ---
 
