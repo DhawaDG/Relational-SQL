@@ -31,6 +31,21 @@ This section of my portfolio documents my journey in mastering Relational SQL. A
 A collection of my detailed handwritten notes and summaries on these topics is available in PDF format.  
 [View Relational SQL Notes](#)
 
+### 1. Core Database Fundamentals & SQL Commands
+Topics covered:
+
+- Core Database Fundamentals
+- SQL Commands (DDL, DML, DCL, TCL)
+- Database Structures (Tables, Rows, Columns, RDBMS)
+- Primary Keys and Foreign Keys
+- Connecting to a Database
+- Executing SQL Queries
+- Creating Tables using CREATE TABLE
+- SQL Data Types (Numeric, String, Date, Boolean, and Binary Types)
+- Creating and Dropping Databases and Tables
+- [📄 View PDF on GitHub](https://github.com/DhawaDG/Relational-SQL/blob/main/chapter1SQL-1-21%20(1).pdf)
+- [⬇️ Download PDF](https://github.com/DhawaDG/Python_fundaments/raw/refs/heads/main/chapter1SQL-1-21%20(1).pdf)
+
 ---
 
 ## Book References
