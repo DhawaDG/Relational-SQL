@@ -52,35 +52,34 @@ A collection of my detailed handwritten notes and summaries on these topics is a
 
 ### 2. SQL Subqueries & Different Types of Subqueries
 
-**Topics covered:**
-
-- Introduction to SQL Subqueries
-- Advantages of Subqueries
-- Inner Queries and Outer Queries
-- Scalar Subqueries
-- Multiple-Row Subqueries
-- Single-Column, Multiple-Row Subqueries
-- Multiple-Column, Multiple-Row Subqueries
-- Correlated Subqueries
-- Using Aggregate Functions in Subqueries (`AVG()`, `MAX()`, `SUM()`)
-- Using `IN` with Multiple-Column Subqueries
-- Using `NOT IN` with Subqueries
-- Using `NOT EXISTS` with Correlated Subqueries
-- Subqueries as Virtual Tables (Derived Tables)
-- Table Aliases in Subqueries
-- Column References and Dot Notation
-- Using Subqueries with `JOIN`
-- Using Subqueries in the `WHERE` Clause
-- Using Subqueries in the `HAVING` Clause
-- Using Subqueries in the `SELECT` Clause
-- Using `GROUP BY` and `HAVING` with Subqueries
-- Using `CASE` Statements with Subqueries
-- Finding Employees Earning More Than the Average Salary
-- Finding Employees Earning More Than Their Departmental Average Salary
-- Finding the Highest-Paid Employees in Each Department
-- Finding Departments Without Employees
-- Finding Products with Total Sales Above Average
-- Finding Stores Selling More Than the Average Quantity
+| Topics Covered | Page |
+| :--- | :--- |
+| Introduction to SQL Subqueries | `page 1` |
+| Advantages of Subqueries | `page 2` |
+| Scalar Subqueries | `page 2` |
+| Multiple-Row Subqueries | `page 12` |
+| Single-Column, Multiple-Row Subqueries | `page 12` |
+| Inner Queries and Outer Queries | `page 12 page 15 page 21 page 25 ` |
+| Multiple-Column, Multiple-Row Subqueries | `page 13` |
+| Correlated Subqueries | `page 15` |
+| Table Aliases in Subqueries | `page 28  ` |
+| Using Subqueries in the `SELECT` Clause | `page 31` |
+| Using Subqueries in the `HAVING` Clause | `page 35` |
+| Using Aggregate Functions in Subqueries (`AVG()`, `MAX()`, `SUM()`) | `page 31 to page 38` |
+| Using `IN` with Multiple-Column Subqueries | `page 12-13 (query on 12, inner/outer explanation on 13)` |
+| Using `NOT IN` with Subqueries | `page 14` |
+| Using `NOT EXISTS` with Correlated Subqueries | `page 21-24 (query and breakdown 21-22, conditions and example tables 23, execution and final output 24)` |
+| Subqueries as Virtual Tables (Derived Tables) | `page 7-8 (virtual table concept). Derived tables with aliases n and avg_sales are on page 25-30.` |
+| Column References and Dot Notation | `page 31` |
+| Using Subqueries with `JOIN` | `page 3 (syntax and implementation), page 6-9 (how the join and ON work, why use a subquery with a join)` |
+| Using Subqueries in the `WHERE` Clause | `page 1 (the salary > (select avg(salary)...) example). Correlated WHERE subqueries are on page 15-18. ` |
+| Using `CASE` Statements with Subqueries | `page 52` |
+| Finding Employees Earning More Than the Average Salary | `page 22` |
+| Finding Employees Earning More Than Their Departmental Average Salary | `page 36` |
+| Finding the Highest-Paid Employees in Each Department | `page 33` |
+| Finding Departments Without Employees | `page 35` |
+| Finding Products with Total Sales Above Average | `page 46` |
+| Finding Stores Selling More Than the Average Quantity | `page 56` |
 - [📄 View PDF on GitHub](https://github.com/DhawaDG/Relational-SQL/blob/main/subqueries.pdf)
 - [⬇️ Download PDF](https://github.com/DhawaDG/Relational-SQL/raw/refs/heads/main/subqueries.pdf)
 
