@@ -33,17 +33,18 @@ A collection of my detailed handwritten notes and summaries on these topics is a
 
 ### 1. Core Database Fundamentals & SQL Commands
 **Topics covered:**
-<ul style="list-style-type: disc; padding-left: 20px;">
-  <li style="display: flex; justify-content: space-between; max-width: 650px;"><span>Core Database Fundamentals</span> <code>page 1</code></li>
-  <li style="display: flex; justify-content: space-between; max-width: 650px;"><span>SQL Commands (DDL, DML, DCL, TCL)</span> <code>page 1</code></li>
-  <li style="display: flex; justify-content: space-between; max-width: 650px;"><span>Database Structures (Tables, Rows, Columns, RDBMS)</span> <code>page 1</code></li>
-  <li style="display: flex; justify-content: space-between; max-width: 650px;"><span>Primary Keys and Foreign Keys</span> <code>page 1</code></li>
-  <li style="display: flex; justify-content: space-between; max-width: 650px;"><span>Connecting to a Database</span> <code>page 1</code></li>
-  <li style="display: flex; justify-content: space-between; max-width: 650px;"><span>Executing SQL Queries</span> <code>page 1</code></li>
-  <li style="display: flex; justify-content: space-between; max-width: 650px;"><span>Creating Tables using CREATE TABLE</span> <code>page 1`</li>
-  <li style="display: flex; justify-content: space-between; max-width: 650px;"><span>SQL Data Types (Numeric, String, Date, Boolean, and Binary Types)</span> <code>page 1</code></li>
-  <li style="display: flex; justify-content: space-between; max-width: 650px;"><span>Creating and Dropping Databases and Tables</span> <code>page 1</code></li>
-</ul>
+| | |
+| :--- | :--- |
+| - Core Database Fundamentals | `page 1` |
+| - SQL Commands (DDL, DML, DCL, TCL) | `page 1` |
+| - Database Structures (Tables, Rows, Columns, RDBMS) | `page 1` |
+| - Primary Keys and Foreign Keys | `page 1` |
+| - Connecting to a Database | `page 1` |
+| - Executing SQL Queries | `page 1` |
+| - Creating Tables using CREATE TABLE | `page 1` |
+| - SQL Data Types (Numeric, String, Date, Boolean, and Binary Types) | `page 1` |
+| - Creating and Dropping Databases and Tables | `page 1` |
+
 - [📄 View PDF on GitHub](https://github.com/DhawaDG/Relational-SQL/blob/main/chapter1SQL-1-21%20(1).pdf)
 - [⬇️ Download PDF](https://github.com/DhawaDG/Relational-SQL/raw/refs/heads/main/chapter1SQL-1-21%20(1).pdf)
 
