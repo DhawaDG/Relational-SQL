@@ -54,32 +54,31 @@ A collection of my detailed handwritten notes and summaries on these topics is a
 
 | Topics Covered | Page |
 | :--- | :--- |
-| Introduction to SQL Subqueries | `page 1` |
-| Advantages of Subqueries | `page 2` |
-| Scalar Subqueries | `page 2` |
-| Multiple-Row Subqueries | `page 12` |
-| Single-Column, Multiple-Row Subqueries | `page 12` |
-| Inner Queries and Outer Queries | `page 12 page 15 page 21 page 25 ` |
-| Multiple-Column, Multiple-Row Subqueries | `page 13` |
-| Correlated Subqueries | `page 15` |
-| Table Aliases in Subqueries | `page 28  ` |
-| Using Subqueries in the `SELECT` Clause | `page 31` |
-| Using Subqueries in the `HAVING` Clause | `page 35` |
-| Using Aggregate Functions in Subqueries (`AVG()`, `MAX()`, `SUM()`) | `page 31 to page 38` |
-| Using `IN` with Multiple-Column Subqueries | `page 12-13 (query on 12, inner/outer explanation on 13)` |
-| Using `NOT IN` with Subqueries | `page 14` |
-| Using `NOT EXISTS` with Correlated Subqueries | `page 21-24 (query and breakdown 21-22, conditions and example tables 23, execution and final output 24)` |
-| Subqueries as Virtual Tables (Derived Tables) | `page 7-8 (virtual table concept). Derived tables with aliases n and avg_sales are on page 25-30.` |
-| Column References and Dot Notation | `page 31` |
-| Using Subqueries with `JOIN` | `page 3 (syntax and implementation), page 6-9 (how the join and ON work, why use a subquery with a join)` |
-| Using Subqueries in the `WHERE` Clause | `page 1 (the salary > (select avg(salary)...) example). Correlated WHERE subqueries are on page 15-18. ` |
-| Using `CASE` Statements with Subqueries | `page 31-34 (question and SELECT/CASE breakdown 31-32, example walkthrough 33, final SQL code 34) ` |
-| Finding Employees Earning More Than the Average Salary | `page 1 (question and both approaches). The join version is on page 3, and its explanation on page 6-9.` |
-| Finding Employees Earning More Than Their Departmental Average Salary | `page 15-20 (correlated subquery with e1/e2: query on page 15, example calculation on page 16, key points on page 17, analogy and code on page 18, explanations on page 19-20)` |
-| Finding the Highest-Paid Employees in Each Department | `page 12-13 (query on 12, inner/outer query explanation and IN clause on 13)` |
-| Finding Departments Without Employees | `	page 14 (NOT IN version), 21-24 (NOT EXISTS version)` |
-| Finding Products with Total Sales Above Average | `page 25-30 (query 25, results and average calculation 26, JOIN and final output 27, why it works and alias n 28, why two aliases 29, summary 30)` |
-| Finding Stores Selling More Than the Average Quantity | `page 35-39 (HAVING with a subquery: query 35, clause explanation 36, how it works and example data 37, step-by-step calculation 38, key points 39)` |
+| What a subquery is; average salary example (two approaches) | `page 1` |
+| Advantages of subqueries | `page 2` |
+| Types of subqueries (scalar, multiple row, correlated) | `page 2` |
+| Scalar subquery and its syntax | `page 2–3` |
+| Subquery with JOIN (implementation) | `page 3` |
+| Why use table aliases | `page 3` |
+| Self-join and why aliases are necessary | `page 3–5` |
+| Subquery alias, how the JOIN works, role of ON | `page 6` |
+| Subquery as a virtual table | `page 7–8` |
+| What happens during the join, important points | `page 8` |
+| Why use a subquery with JOIN (dynamic calculation, reusability) | `page 9` |
+| Dot notation and disambiguating column names | `page 10–11` |
+| Multiple row subquery (highest salary per department) with IN | `page 12–13` |
+| Single column, multiple row subquery with NOT IN | `page 14` |
+| Correlated subquery: outer query, inner query, example calculation | `page 15–16` |
+| Generalization and key points (dynamic matching, e1/e2) | `page 17` |
+| Waiter analogy and code | `page 18` |
+| Explanation 2 (classroom analogy) and simplified code meaning | `page 19–20` |
+| NOT EXISTS: breakdown, school analogy, conditions, example tables, execution, output | `page 21–24` |
+| Subqueries in FROM (derived tables), products above average sales | `page 25–30` |
+| Why the aliases n and avg_sales are needed | `page 28–30` |
+| Subquery in SELECT with CASE (remarks column) | `page 31–34` |
+| Subquery in HAVING (stores above average quantity) | `page 35–39` |
+| Primary and foreign key practical (city and personal tables) | `page 40–41` |
+| Inner join of personal and city, WHERE and ORDER BY | `page 41` |
 - [📄 View PDF on GitHub](https://github.com/DhawaDG/Relational-SQL/blob/main/subqueries.pdf)
 - [⬇️ Download PDF](https://github.com/DhawaDG/Relational-SQL/raw/refs/heads/main/subqueries.pdf)
 
