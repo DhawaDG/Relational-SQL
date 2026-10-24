@@ -34,15 +34,50 @@ A collection of my detailed handwritten notes and summaries on these topics is a
 ### 1. Core Database Fundamentals & SQL Commands
 | Topics Covered | Page |
 | :--- | :--- |
-| Core Database Fundamentals | `page 1` |
-| SQL Commands (DDL, DML, DCL, TCL) | `page 2` |
-| Database Structures (Tables, Rows, Columns, RDBMS) | `page 2` |
-| Primary Keys and Foreign Keys | `page 2` |
-| Connecting to a Database | `page 2` |
-| Executing SQL Queries | `page 2` |
-| Creating Tables using CREATE TABLE | `page 2` |
-| SQL Data Types (Numeric, String, Date, Boolean, and Binary Types) | `page 5` |
-| Creating and Dropping Databases and Tables | `page 5 - 21` |
+| SQL command categories: DDL, DML, DCL, TCL and their commands | `page 1` |
+| SQL structure: databases, tables, data, rows and columns (RDBMS) | `page 2` |
+| Keys: primary key (unique, not null, only one per table) with example table | `page 2` |
+| Primary key syntax (CREATE TABLE students) | `page 3` |
+| Foreign key: definition, child and parent tables | `page 3` |
+| Foreign key syntax (FOREIGN KEY ... REFERENCES) | `page 4` |
+| Example: students (child) and cities (parent) tables | `page 4` |
+| Tutorial 2: SHOW DATABASES | `page 5` |
+| MySQL string datatypes (CHAR, VARCHAR, TEXT, BLOB, ENUM, SET) | `page 5` |
+| MySQL numeric datatypes (BIT, INT, BIGINT, BOOL, FLOAT, DOUBLE, DECIMAL) | `page 5` |
+| MySQL date and time datatypes (DATE, DATETIME, TIMESTAMP, TIME, YEAR) | `page 6` |
+| Basics of SQL: understanding databases | `page 7` |
+| Relational vs non-relational databases: structure, scalability, strength | `page 7` |
+| Relational vs non-relational: storage, schema, performance, examples | `page 8` |
+| Basic SQL commands: the SELECT statement and its syntax | `page 9` |
+| Selecting a whole table, specific columns, renaming columns (AS) | `page 9` |
+| WHERE syntax with SELECT | `page 9` |
+| WHERE comparison operators (=, >, <, >=, <=, <>, BETWEEN, LIKE, IN) | `page 10` |
+| Fundamental syntax structure of a SELECT query (WHERE, GROUP BY, HAVING, ORDER BY) | `page 11` |
+| Selecting columns and limiting rows with LIMIT | `page 11` |
+| ORDER BY: sorting results (ASC default, DESC) | `page 11` |
+| Introduction to simple inline calculation (heading only, page is otherwise blank) | `page 12` |
+| Creating tables (CREATE TABLE personal) | `page 13` |
+| Inserting values into a table | `page 13` |
+| Inserting multiple rows (syntax) | `page 13–14` |
+| Multi-row insert implementation | `page 14` |
+| List of constraints in MySQL (NOT NULL, UNIQUE, DEFAULT, CHECK, FOREIGN KEY, PRIMARY KEY) | `page 14` |
+| Data table without constraints (example of bad data) | `page 14` |
+| Problems from missing constraints (missing values, age under 18, duplicate phone, same city) | `page 15` |
+| CREATE TABLE syntax with constraints (NOT NULL, CHECK, UNIQUE, DEFAULT) | `page 15` |
+| How to show data from tables with SQL | `page 16` |
+| SELECT syntax: SELECT columns and SELECT * | `page 16` |
+| Exercise: three customer table queries | `page 17` |
+| Solution: create the customer_database schema and customer_info table | `page 17` |
+| The WHERE clause: filtering SELECT results (syntax and implementation) | `page 18` |
+| Filtering on multiple conditions: syntax | `page 18` |
+| Implement 1: OR | `page 18` |
+| Implement 2: AND (returns no values) | `page 19` |
+| Implement 3 and 4: not equal (!=) | `page 19` |
+| Implement 5 and 6: in between (comparison operators and BETWEEN) | `page 19` |
+| Truth table for AND, OR, AND NOT | `page 20` |
+| Implement 7: IN | `page 20` |
+| Implement 8: NULL (heading only, no content) | `page 20` |
+| Subquery definition (can appear in WHERE, FROM or SELECT) | `page 21` |
 
 - [📄 View PDF on GitHub](https://github.com/DhawaDG/Relational-SQL/blob/main/chapter1SQL-1-21%20(1).pdf)
 - [⬇️ Download PDF](https://github.com/DhawaDG/Relational-SQL/raw/refs/heads/main/chapter1SQL-1-21%20(1).pdf)
