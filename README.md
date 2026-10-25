@@ -156,7 +156,7 @@ A collection of my detailed handwritten notes and summaries on these topics is a
 - [📄 View PDF on GitHub](https://github.com/DhawaDG/Relational-SQL/blob/main/dataretrievalandmanipulations.pdf)
 - [⬇️ Download PDF](https://github.com/DhawaDG/Relational-SQL/raw/refs/heads/main/dataretrievalandmanipulations.pdf)
 
-  ### 4. SQL Joins
+### 4. SQL Joins
   
 | Topics Covered | Page |
 | :--- | :--- |
