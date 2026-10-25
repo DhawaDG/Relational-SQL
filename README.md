@@ -179,6 +179,10 @@ A collection of my detailed handwritten notes and summaries on these topics is a
 | Query 1 (problem): WHERE cp.market_date <> '2025-01-15' drops customers with no purchases | `page 7` |
 | Query 2 (fix): WHERE (... <> '2025-01-15' OR cp.market_date IS NULL) with DISTINCT | `page 8` |
 | Why query 2 works, and outputs of both queries | `page 8` |
+
+- [📄 View PDF on GitHub](https://github.com/DhawaDG/Relational-SQL/blob/main/sqljoins.pdf)
+- [⬇️ Download PDF](https://github.com/DhawaDG/Relational-SQL/raw/refs/heads/main/sqljoins.pdf)
+
 ---
 
 ## Book References
