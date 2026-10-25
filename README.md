@@ -228,7 +228,7 @@ A collection of my detailed handwritten notes and summaries on these topics is a
 - [⬇️ Download PDF](https://github.com/DhawaDG/Relational-SQL/raw/refs/heads/main/windowfunctions.pdf)
 
 
-### 5. SQL Window Functions
+### 5. SQL Common Tables Expressions(CTEs) & Temporary Table
 
 | Topics Covered | Page |
 | :--- | :--- |
