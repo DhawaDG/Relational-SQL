@@ -321,7 +321,7 @@ A collection of my detailed handwritten notes and summaries on these topics is a
 | Output: previous max salary and whether each row is a new record | `page 8` |
 | Counting new vs returning customers by week (heading only) | `page 9` |
 
-[📄 View PDF on GitHub](https://github.com/DhawaDG/Relational-SQL/blob/main/UnionSQLpdf.pdf)
+- [📄 View PDF on GitHub](https://github.com/DhawaDG/Relational-SQL/blob/main/UnionSQLpdf.pdf)
 - [⬇️ Download PDF](https://github.com/DhawaDG/Relational-SQL/raw/refs/heads/main/UnionSQLpdf.pdf)
 
 
