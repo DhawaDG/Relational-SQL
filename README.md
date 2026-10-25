@@ -254,6 +254,9 @@ A collection of my detailed handwritten notes and summaries on these topics is a
 | Index workflow example: query without index, EXPLAIN, CREATE INDEX idx_email, repeat EXPLAIN | `page 8` |
 | Combining indexing and EXPLAIN: identify slow queries, analyze, add or modify indexes, re-analyze | `page 9` |
 
+- [📄 View PDF on GitHub](https://github.com/DhawaDG/Relational-SQL/blob/main/cte%26temp_table%20(1).pdf)
+- [⬇️ Download PDF](https://github.com/DhawaDG/Relational-SQL/raw/refs/heads/main/cte%26temp_table%20(1).pdf)
+
 ---
 
 ## Book References
