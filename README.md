@@ -31,6 +31,7 @@ This section of my portfolio documents my journey in mastering Relational SQL. A
 A collection of my detailed handwritten notes and summaries on these topics is available in PDF format.  
 
 
+
 ### 1. Core Database Fundamentals & SQL Commands
 | Topics Covered | Page |
 | :--- | :--- |
