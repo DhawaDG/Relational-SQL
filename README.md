@@ -183,7 +183,7 @@ A collection of my detailed handwritten notes and summaries on these topics is a
 - [📄 View PDF on GitHub](https://github.com/DhawaDG/Relational-SQL/blob/main/sqljoins.pdf)
 - [⬇️ Download PDF](https://github.com/DhawaDG/Relational-SQL/raw/refs/heads/main/sqljoins.pdf)
 
-### 5. SQL Window Functioms
+### 5. SQL Window Functions
 
 | Topics Covered | Page |
 | :--- | :--- |
