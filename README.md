@@ -257,6 +257,47 @@ A collection of my detailed handwritten notes and summaries on these topics is a
 - [📄 View PDF on GitHub](https://github.com/DhawaDG/Relational-SQL/blob/main/cte%26temp_table%20(1).pdf)
 - [⬇️ Download PDF](https://github.com/DhawaDG/Relational-SQL/raw/refs/heads/main/cte%26temp_table%20(1).pdf)
 
+### 5. SQL Time and Date Functions
+| Topics Covered | Page |
+| :--- | :--- |
+| Date and time functions: setting datetime field values | `page 1` |
+| Datetime fields (date and time in one column) | `page 1` |
+| STR_TO_DATE() (format string %Y-%m-%d %h:%i %p) | `page 1` |
+| CONCAT() to merge date and time strings | `page 1` |
+| %Y vs %y (4-digit vs 2-digit year) | `page 2` |
+| market_date_info table, and creating datetime_demo with STR_TO_DATE(CONCAT(...)) | `page 2` |
+| Query output (start and end datetime columns) | `page 2–3` |
+| Explanation of the query, why the space ' ' in CONCAT, whether CONCAT turns dates into strings, why STR_TO_DATE is needed | `page 3` |
+| EXTRACT and date-part functions: datetime extraction, EXTRACT syntax | `page 4` |
+| DATE() and TIME() functions, use cases | `page 4` |
+| datetime_demo1 table | `page 5` |
+| EXTRACT for day, month, year, hour and minute, with output | `page 5` |
+| DATE() and TIME() query and output | `page 5–6` |
+| Filtering using extracted parts (EXTRACT(YEAR ...) and EXTRACT(MONTH ...)) | `page 6` |
+| DATE_ADD and DATE_SUB: data calculations, syntax, examples | `page 7` |
+| Negative intervals (DATE_ADD with a negative interval equals DATE_SUB) | `page 8` |
+| DATE_ADD query and output (add 30 minutes and 30 days) | `page 8` |
+| DATEDIFF: function, syntax, use cases, nested queries | `page 9` |
+| datetime_demo3 table | `page 9` |
+| DATEDIFF with a nested query (MIN and MAX, alias x) and breakdown | `page 10–11` |
+| DATEDIFF output (first market to last market) | `page 11` |
+| movie_bookings and employee_records tables | `page 11` |
+| Employee tenure and time since last promotion (CURDATE(), DATEDIFF) | `page 12` |
+| Explanation of the query and output | `page 12` |
+| Employees not promoted in the last 2 years (> 730 days) | `page 13` |
+| Employees promoted within 30 days of joining (no rows returned) | `page 13–14` |
+| Why you can’t use an alias in WHERE (it runs before SELECT) | `page 13–14` |
+| TIMESTAMPDIFF: function, syntax, supported intervals, use cases | `page 15` |
+| market_datetime table | `page 15` |
+| TIMESTAMPDIFF query (hours and minutes) and output | `page 16` |
+| Exploring multiple tables: aggregating, filtering, use cases | `page 17` |
+| customer_purchases table | `page 18` |
+| Aggregation query (SUM(quantity), SUM(quantity * cost), GROUP BY, WHERE) | `page 18` |
+| Output and explanation of the totals | `page 19` |
+
+
+- [📄 View PDF on GitHub](https://github.com/DhawaDG/Relational-SQL/blob/main/time%26datefunctions%20(1).pdf)
+- [⬇️ Download PDF](https://github.com/DhawaDG/Relational-SQL/raw/refs/heads/main/time%26datefunctions%20(1).pdf)
 ---
 
 ## Book References
