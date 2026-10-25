@@ -119,8 +119,6 @@ A collection of my detailed handwritten notes and summaries on these topics is a
 
 ### 3. SQL Data Retrieval & Manipulation
 
-**Topics covered:**
-
 | Topics Covered | Page |
 | :--- | :--- |
 | Aggregate functions (COUNT, MAX, MIN, SUM, AVG) and SELECT syntax | `page 1` |
@@ -158,6 +156,29 @@ A collection of my detailed handwritten notes and summaries on these topics is a
 - [📄 View PDF on GitHub](https://github.com/DhawaDG/Relational-SQL/blob/main/dataretrievalandmanipulations.pdf)
 - [⬇️ Download PDF](https://github.com/DhawaDG/Relational-SQL/raw/refs/heads/main/dataretrievalandmanipulations.pdf)
 
+  ### 4. SQL Joins
+  
+| Topics Covered | Page |
+| :--- | :--- |
+| Database relationships: one-to-many (customer and purchases), primary and foreign keys (already covered) | `page 1` |
+| Inner join: Venn diagram, description, when to use, example | `page 1` |
+| Inner join syntax | `page 2` |
+| Left join: Venn diagram, description (unmatched right-side rows become NULL), example | `page 2` |
+| Left join syntax | `page 3` |
+| Right join: Venn diagram, description, example | `page 3` |
+| Right join syntax | `page 4` |
+| Sample database sql_joins: employees and department tables | `page 4` |
+| Left join query (employees with department) | `page 4–5` |
+| Left join output (Charlie has a NULL department) | `page 5` |
+| Right join query and output (the unmatched IT department shows NULL employee) | `page 5` |
+| Inner join query | `page 5` |
+| Inner join output (Alice and Bob only) | `page 6` |
+| Common pitfalls when filtering joined data | `page 6–7` |
+| Sample customers and customer_purchases tables (with foreign key) | `page 6` |
+| Pitfall: a WHERE filter on a right-table column turns a left join into an inner join | `page 7` |
+| Query 1 (problem): WHERE cp.market_date <> '2025-01-15' drops customers with no purchases | `page 7` |
+| Query 2 (fix): WHERE (... <> '2025-01-15' OR cp.market_date IS NULL) with DISTINCT | `page 8` |
+| Why query 2 works, and outputs of both queries | `page 8` |
 ---
 
 ## Book References
