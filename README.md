@@ -227,6 +227,33 @@ A collection of my detailed handwritten notes and summaries on these topics is a
 - [📄 View PDF on GitHub](https://github.com/DhawaDG/Relational-SQL/blob/main/windowfunctions.pdf)
 - [⬇️ Download PDF](https://github.com/DhawaDG/Relational-SQL/raw/refs/heads/main/windowfunctions.pdf)
 
+
+### 5. SQL Window Functions
+
+| Topics Covered | Page |
+| :--- | :--- |
+| Common Table Expressions (CTEs): definition (WITH, temporary result set) | `page 1` |
+| When to use CTEs (recursive queries, reusing a subquery, readability) | `page 1` |
+| employees sample table (7 rows with department, manager and salary) | `page 1` |
+| CTE limitation: you can’t UPDATE, DELETE or INSERT on it | `page 2` |
+| department_avg CTE joined with employees (salary above the department average) | `page 2` |
+| CTE example output (Alice and David) | `page 2` |
+| Why department_avg behaves like a table (virtual table, join works) | `page 2–3` |
+| CTE vs user-defined function comparison table (behavior, scope, use case, joinable) | `page 3` |
+| How the CTE example works, step by step | `page 3` |
+| Temporary tables: definition, persistence, when to use | `page 4` |
+| Temporary table Example 1 (high_salary_employees) and how it works | `page 4` |
+| Temporary table Example 2 (department_salaries for performance) | `page 5` |
+| Key differences: CTEs vs temporary tables (scope, usage, performance, persistence) | `page 5` |
+| Performance optimization: indexing for faster querying (what an index is) | `page 6` |
+| Types of indexes: primary, single-column, composite, unique, full-text, hash, clustered and non-clustered, B-tree | `page 6` |
+| When to use indexes | `page 7` |
+| Index best practices (avoid over-indexing, remove unused indexes, composite indexes) | `page 7` |
+| Query profiling and analysis with EXPLAIN | `page 7` |
+| users sample table | `page 8` |
+| Index workflow example: query without index, EXPLAIN, CREATE INDEX idx_email, repeat EXPLAIN | `page 8` |
+| Combining indexing and EXPLAIN: identify slow queries, analyze, add or modify indexes, re-analyze | `page 9` |
+
 ---
 
 ## Book References
