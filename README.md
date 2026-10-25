@@ -298,6 +298,33 @@ A collection of my detailed handwritten notes and summaries on these topics is a
 
 - [📄 View PDF on GitHub](https://github.com/DhawaDG/Relational-SQL/blob/main/time%26datefunctions%20(1).pdf)
 - [⬇️ Download PDF](https://github.com/DhawaDG/Relational-SQL/raw/refs/heads/main/time%26datefunctions%20(1).pdf)
+
+
+### 6. SQL Unions
+
+| Topics Covered | Page |
+| :--- | :--- |
+| More advanced query structures: UNION vs UNION ALL | `page 1` |
+| Use cases for unions | `page 1` |
+| Requirements (matching column count, order and data type; names come from the first query) | `page 1` |
+| sales_2022 and sales_2023 sample tables | `page 1` |
+| Combining data with UNION (query with ORDER BY sale_date) and output | `page 2` |
+| Advanced example with a CTE and UNION ALL: sales_combined (adds sale_year with YEAR(sale_date)) | `page 3` |
+| top_products CTE (SUM(quantity), RANK() OVER (PARTITION BY sale_year ...)) | `page 3–4` |
+| Final query (WHERE quantity_rank = 1) | `page 4` |
+| sales_combined and top_product intermediate results | `page 4` |
+| Final output (top product per year: 101 in both) | `page 5` |
+| Self-join to determine to-date maximum: what a self-join is | `page 6` |
+| Three steps (summarize with a CTE, self-join to compare with previous dates, MAX() and CASE to flag a new record) | `page 6` |
+| employee_salaries sample table | `page 6` |
+| Query: employee_salary_summary CTE, LEFT JOIN on earlier dates, MAX(prev.salary_amount), CASE ... 'Yes'/'No' | `page 7` |
+| Output: previous max salary and whether each row is a new record | `page 8` |
+| Counting new vs returning customers by week (heading only) | `page 9` |
+
+[📄 View PDF on GitHub](https://github.com/DhawaDG/Relational-SQL/blob/main/UnionSQLpdf.pdf)
+- [⬇️ Download PDF](https://github.com/DhawaDG/Relational-SQL/raw/refs/heads/main/UnionSQLpdf.pdf)
+
+
 ---
 
 ## Book References
