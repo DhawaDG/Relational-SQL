@@ -183,6 +183,50 @@ A collection of my detailed handwritten notes and summaries on these topics is a
 - [📄 View PDF on GitHub](https://github.com/DhawaDG/Relational-SQL/blob/main/sqljoins.pdf)
 - [⬇️ Download PDF](https://github.com/DhawaDG/Relational-SQL/raw/refs/heads/main/sqljoins.pdf)
 
+### 5. SQL Window Functioms
+
+| Topics Covered | Page |
+| :--- | :--- |
+| Window functions: ROW_NUMBER() definition and key points (partitioning, ordering, subquery for filtering) | `page 1` |
+| vendor_inventory table (sample data) | `page 2` |
+| Query to rank products by price per vendor | `page 2` |
+| Query breakdown: ROW_NUMBER(), OVER, PARTITION BY vendor_id, ORDER BY original_price DESC, AS price_rank | `page 3–4` |
+| How it works: partitioning, ordering, row numbering, final output | `page 4–5` |
+| Query to find the most expensive product per vendor (subquery with ranked_inventory) | `page 6` |
+| Explanation of the nested query (price_rank = 1, ORDER BY vendor_id) | `page 7–8` |
+| Role of OVER: sports race analogy (age groups and finish times) | `page 8–9` |
+| Why not use GROUP BY instead (it loses row details) | `page 9` |
+| RANK and DENSE_RANK: definitions and gaps in ranking | `page 10` |
+| ROW_NUMBER for comparison (unique ranks, no ties) | `page 10` |
+| Key differences between RANK, DENSE_RANK and ROW_NUMBER (school competition analogy) | `page 11` |
+| vendor_inventory1 table (with price ties) | `page 11` |
+| RANK() query, output and explanation | `page 12–13` |
+| DENSE_RANK() query, output and explanation | `page 12–14` |
+| ROW_NUMBER() query and output on the tied data | `page 14` |
+| NTILE: what it does, syntax, how it works (even distribution, uneven rows) | `page 15` |
+| NTILE with ties, when to use it (percentiles, quartiles), vendor_inventory2 table | `page 16` |
+| NTILE into 4 groups (quartiles): query start | `page 16` |
+| NTILE(2) with PARTITION BY vendor_id, output and explanation | `page 17` |
+| Aggregate window functions: what they do, syntax, common use cases | `page 18` |
+| AVG() as a window function (average price by market date), with hand calculation | `page 19` |
+| AVG() output, table vendor_inventory3 | `page 20` |
+| COUNT() as a window function (PARTITION BY market_date, vendor_id) | `page 21` |
+| Why COUNT(product_id) doesn’t count one product, and conditional COUNT(CASE WHEN ...) | `page 22` |
+| COUNT() output | `page 23` |
+| SUM() as a window function (running total) and explanation | `page 23` |
+| SUM() running total output | `page 24` |
+| LAG() and LEAD(): definitions, syntax, parameters (column, offset, PARTITION BY, ORDER BY) | `page 25` |
+| Use cases for LAG and LEAD | `page 26` |
+| vendor_booth_assignments table | `page 26` |
+| employee_salaries table | `page 27` |
+| LAG() to compare previous salaries: query | `page 27` |
+| How LAG() works in the query (partition, order, offset, final order) | `page 27–28` |
+| LAG() output (first row is NULL) | `page 28` |
+| LEAD() to see future salaries: query and output | `page 29` |
+
+- [📄 View PDF on GitHub](https://github.com/DhawaDG/Relational-SQL/blob/main/windowfunctions.pdf)
+- [⬇️ Download PDF](https://github.com/DhawaDG/Relational-SQL/raw/refs/heads/main/windowfunctions.pdf)
+
 ---
 
 ## Book References
